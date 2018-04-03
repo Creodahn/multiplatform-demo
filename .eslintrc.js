@@ -1,4 +1,7 @@
 module.exports = {
+  globals: {
+    server: true,
+  },
   root: true,
   parserOptions: {
     ecmaVersion: 2017,
@@ -9,6 +12,7 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   globals: {
+    server: true,
     '-Promise': true,
     document: true,
     DS: true,

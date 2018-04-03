@@ -1,0 +1,24 @@
+<p>
+  Choose an app type to see instructions on how to create it.<br>
+  Note that the instructions are additive, creating the base Ember app, then
+  adding the Electron and Corber addons to create desktop and mobile versions
+  of the application.
+</p>
+
+<ul class="nav flex-column">
+  <li class="nav-item">
+    {{#link-to "main.ember-web" class="nav-link"}}
+      Web
+    {{/link-to}}
+  </li>
+  <li class="nav-item">
+    {{#link-to "main.electron" class="nav-link"}}
+      Desktop
+    {{/link-to}}
+  </li>
+  <li class="nav-item">
+    {{#link-to "main.corber" class="nav-link"}}
+      Mobile
+    {{/link-to}}
+  </li>
+</ul>

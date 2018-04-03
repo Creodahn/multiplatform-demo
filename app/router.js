@@ -8,7 +8,10 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('main', { path: '/' }, function() {
-    this.route('profile');
+    this.route('home');
+    this.route('corber');
+    this.route('electron');
+    this.route('ember-web');
   });
 });
 

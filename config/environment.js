@@ -3,6 +3,9 @@
 module.exports = function(environment) {
   const ENV = {
     modulePrefix: 'multiplatform-demo',
+    'ember-cli-mirage': {
+      enabled: true
+    },
     environment,
     rootURL: '',
     locationType: 'hash',
