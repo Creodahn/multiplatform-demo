@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   const ENV = {
-    modulePrefix: 'multiplatform-test',
+    modulePrefix: 'multiplatform-demo',
     environment,
     rootURL: '',
     locationType: 'hash',
