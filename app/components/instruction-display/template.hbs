@@ -1,11 +1,6 @@
-<h2>{{model.title}}</h2>
+{{markdown-to-html model.title}}
+{{markdown-to-html model.intro}}
 
-<p>
-  {{model.intro}}
-</p>
-
-<ol>
-  {{#each model.steps as |step|}}
-    <li>{{{html-safe step}}}</li>
-  {{/each}}
-</ol>
+{{#each model.steps as |step|}}
+  {{markdown-to-html step}}
+{{/each}}
