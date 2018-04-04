@@ -1,7 +1,7 @@
 export default function(server) {
   server.create('instruction', {
     id: 1,
-    intro: '*Corber wraps the Cordova library for use with Javascript libraries. It specifically grew out of the ember-cli-cordova addon.*',
+    intro: '*Corber wraps the [Cordova](https://cordova.apache.org/) library for use with Javascript libraries. It specifically grew out of the ember-cli-cordova addon.*',
     steps: [
       '1. Install the Java Developer Kit 1.8',
       '2. Install Corber globally using Yarn or NPM',
@@ -27,9 +27,9 @@ export default function(server) {
 
   server.create('instruction', {
     id: 2,
-    intro: '*Electron bundles a version of the Chromium browser with Node.js to create desktop apps from your new or existing web app*',
+    intro: '*Electron bundles a version of the Chromium browser with Node.js to create desktop apps for Windows, MacOS, or Linux from your new or existing web app*',
     steps: [
-      '1. From inside your ember application, use the `ember install ember-electron` command to add Electron to your project',
+      '1. From inside your ember application, use the `ember install ember-electron` command to add [Electron](https://electronjs.org/) to your project',
       '2. You can now run your application using the `ember electron` command',
       '3. In your Ember application, you will now see an ember-electron subdirectory, in which you can customize your Electron application. `ember-electron` provides enough boilerplate code to get you up and running without any additional customization'
     ],
