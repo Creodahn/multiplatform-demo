@@ -6,6 +6,6 @@
 
 <ol>
   {{#each model.steps as |step|}}
-    <li>{{step}}</li>
+    <li>{{{html-safe step}}}</li>
   {{/each}}
 </ol>
