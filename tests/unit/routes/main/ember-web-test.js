@@ -5,7 +5,8 @@ module('Unit | Route | main/ember-web', function(hooks) {
   setupTest(hooks);
 
   test('it exists', function(assert) {
-    let route = this.owner.lookup('route:main/ember-web');
+    const route = this.owner.lookup('route:main/ember-web');
+
     assert.ok(route);
   });
 });

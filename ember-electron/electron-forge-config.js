@@ -1,30 +1,30 @@
 module.exports = {
-  "make_targets": {
-    "win32": [
-      "squirrel"
+  make_targets: {
+    win32: [
+      'squirrel'
     ],
-    "darwin": [
-      "zip"
+    darwin: [
+      'zip'
     ],
-    "linux": [
-      "deb",
-      "rpm"
+    linux: [
+      'deb',
+      'rpm'
     ]
   },
-  "electronPackagerConfig": {
-    "packageManager": "yarn"
+  electronPackagerConfig: {
+    packageManager: 'yarn'
   },
-  "electronWinstallerConfig": {
-    "name": "multiplatform_test"
+  electronWinstallerConfig: {
+    name: 'multiplatform_test'
   },
-  "electronInstallerDebian": {},
-  "electronInstallerRedhat": {},
-  "github_repository": {
-    "owner": "",
-    "name": ""
+  electronInstallerDebian: {},
+  electronInstallerRedhat: {},
+  github_repository: {
+    owner: '',
+    name: ''
   },
-  "windowsStoreConfig": {
-    "packageName": "",
-    "name": "multiplatformtest"
+  windowsStoreConfig: {
+    packageName: '',
+    name: 'multiplatformtest'
   }
 };
