@@ -13,6 +13,7 @@ Router.map(function() {
     this.route('electron');
     this.route('ember-web');
     this.route('architecture');
+    this.route('autoupdate');
   });
 });
 

@@ -85,8 +85,21 @@ export default function(server) {
       '[Mirage](http://www.ember-cli-mirage.com/) is a library for mocking HTTP requests for development and testing of Ember applications. This app uses Mirage to mock calls for returning these instructions',
       '### QUnit',
       'Ember uses QUnit for its testing suite by default, and generates tests for you as your create pieces of your application. All tests can be found in the `app-name/tests` directory'
-
     ],
     title: '# Ember Application Architecture'
+  });
+
+  server.create('instructions', {
+    id: 5,
+    intro: '*Electron uses Squirrel to allow automatically pushing updates to client instances of your application*',
+    steps: [
+      'From [Squirrel\'s Github](https://github.com/Squirrel/Squirrel.Mac):',
+      '"*Squirrel is an OS X framework focused on making application updates as safe and transparent as updates to a website.*',
+      '*Instead of publishing a feed of versions from which your app must select, Squirrel updates to the version your server tells it to. This allows you to intelligently update your clients based on the request you give to Squirrel. The server can remotely drive behaviors like rolling back or phased rollouts.*',
+      '*Your request can include authentication details, custom headers or a request body so that your server has the context it needs in order to supply the most suitable update.*',
+      '*The update JSON Squirrel requests should be dynamically generated based on criteria in the request, and whether an update is required. Squirrel relies on server side support for determining whether an update is required, see Server Support.*',
+      '*Squirrel\'s installer is also designed to be fault tolerant, and ensure that any updates installed are valid.*"'
+    ],
+    title: '# Auto-updating an Electron application'
   });
 }
