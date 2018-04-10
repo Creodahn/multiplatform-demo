@@ -2,7 +2,7 @@
   <h1>Justin's Awesome Multiplatform App</h1>
 </header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  {{#link-to "main" class="navbar-brand"}}
+  {{#link-to "main.home" class="navbar-brand"}}
     Navbar
   {{/link-to}}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,11 @@
       <li class="nav-item">
         {{#link-to "main.ember-web" class="nav-link"}}
           Web
+        {{/link-to}}
+      </li>
+      <li class="nav-item">
+        {{#link-to "main.architecture" class="nav-link"}}
+          Ember.js Architecture
         {{/link-to}}
       </li>
       <li class="nav-item">

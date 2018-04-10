@@ -12,6 +12,7 @@ Router.map(function() {
     this.route('corber');
     this.route('electron');
     this.route('ember-web');
+    this.route('architecture');
   });
 });
 
