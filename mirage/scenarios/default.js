@@ -20,7 +20,9 @@ export default function(server) {
       '### iOS App Development',
       '1. Make sure your installation of XCode is up to date, and you have accepted the licenses',
       '2. Run `corber platform add ios` to add iOS as a build target',
-      '3. Use `corber build --platform=ios --environment=production` to build an install file for your app'
+      '3. Use `corber build --platform=ios --environment=production` to build an XCode project for your app, which will be stored in `app-name/corber/cordova/platforms/ios/app-name.xcodeproj`',
+      '4. Open the created project with XCode and run it with an iPhone simulator to test your app',
+      'NOTE: to completely build an .app file for your app, you will need to sign your code as per Apple\'s requirements'
     ],
     title: '# Creating Mobile Apps with Ember and Corber'
   });
