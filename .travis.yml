@@ -21,6 +21,6 @@ script:
 - ember build --prod
 deploy:
   provider: surge
-  project: ./dist
+  project: dist/
   domain: multiplatform-ember.surge.sh
   on: master
