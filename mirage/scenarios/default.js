@@ -105,4 +105,22 @@ export default function(server) {
     ],
     title: '# Auto-updating an Electron application'
   });
+
+  server.create('instruction', {
+    id: 6,
+    intro: '*[Travis-CI](https://travis-ci.org/) is a free (for open source projects) continuous integration tool, and [Surge.sh](https://surge.sh/) is a free deployment tool for static web apps*',
+    steps: [
+      '### Setting up Surge.sh',
+      '1. Globally install Surge using `npm install --global surge` or `yarn global add surge`',
+      '2. Use the `surge` command to setup an account and configure your deploys',
+      '### Setting up Travis-CI',
+      '1. Go to the [Travis-CI website](https://travis-ci.org) and sign in with your Github account',
+      '2. From the list of projects in your account, activate Travis-CI for the desired project(s)',
+      '3. Include a `.travis.yml` file in your application, basing the configuration on the language and framework you are using. You can set a custom Surge domain in the deployment step to ensure you know how to get to your deployed app',
+      '4. Make sure to set up environment variables for your Surge deploy in Travis-CI through your account (instructions can be found [here](https://docs.travis-ci.com/user/deployment/surge/))',
+      '5. The next time you push changes to your Github repo, Travis-CI will detect them, and run your deployment script',
+      '6. Visit the custom domain you entered in the deployment script to see your deployed application'
+    ],
+    title: 'Deploying an Ember app with Travis-CI and Surge.sh'
+  });
 }

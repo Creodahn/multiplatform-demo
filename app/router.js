@@ -14,6 +14,7 @@ Router.map(function() {
     this.route('ember-web');
     this.route('architecture');
     this.route('autoupdate');
+    this.route('surge-travis');
   });
 });
 
