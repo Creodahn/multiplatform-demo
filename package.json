@@ -75,7 +75,6 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "broccoli-asset-rev": "^2.4.5",
-    "corber": "1.2.3",
     "devtron": "^1.4.0",
     "electron-forge": "^5.1.1",
     "electron-prebuilt-compile": "1.8.2",

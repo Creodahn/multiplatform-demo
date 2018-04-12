@@ -39,7 +39,8 @@ export default function(server) {
       '*`ember-electron` uses [`electron-forge`](https://github.com/electron-userland/electron-forge) to handle its builds*',
       'NOTE: The simplest place to store your Electron Forge config is inside your package.json file',
       '1. At this point, you should be able to build your Electron app using `ember electron:make`, which will store its output in `app-name/electron-out`',
-      '2. You can run your built application by navigating to the output directory and finding the `app-name.app` or `app-name.exe` (depending on OS)'
+      '2. You can run your built application by navigating to the output directory and finding the `app-name.app` or `app-name.exe` (depending on OS)',
+      'NOTE: Electron requires that you run the `make` command on the OS you are building for, i.e., you must make Mac apps on MacOS and Windows apps on Windows'
 
     ],
     title: '# Creating Desktop Apps with Ember and Electron'
